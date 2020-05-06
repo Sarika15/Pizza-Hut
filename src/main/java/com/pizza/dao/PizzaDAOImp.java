@@ -102,7 +102,7 @@ public class PizzaDAOImp implements PizzaDAO {
 		for(Pizza p4 : pizzaStock) {
 			System.out.println(p4);
 			}
-		System.out.println("Select which Pizza do you want:");
+		System.out.println("Enter Pizza ID of Pizza which you want:");
 		pizza.setPid(sc.nextInt());
 		System.out.println("Enter Quantity: ");
 		pizza.setQant(sc.nextInt());
